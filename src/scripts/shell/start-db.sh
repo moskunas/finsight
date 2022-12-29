@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-SERVER="finsight";
-PW="mysecretpassword";
+SERVER="finsight-db";
+PW="password";
 DB="finsightdb";
 
 echo "echo stop & remove old docker [$SERVER] and starting new instance of [$SERVER]"
